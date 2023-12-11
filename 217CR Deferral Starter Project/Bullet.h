@@ -10,7 +10,7 @@ class Bullet : public GameObject
 		float bullet_radius;
 		Vec3 bullet_Velocity;
 		
-		float speed = 2.0f;
+		float speed = 5.0f;
 		Vec3 bullet_Position;
 		Vec3 bullet_Heading_Vec;
 		float bullet_mass;

@@ -4,8 +4,6 @@ Bullet::Bullet(GameObject* _player)
 {
 	
 
-	
-
 	//bullet_Position.x = 0;
 	//bullet_Position.y = 0;
 	//bullet_Position.z = 0;
@@ -15,8 +13,8 @@ Bullet::Bullet(GameObject* _player)
 	b = 1.0f;
 
 	bullet_radius = 0.1f;
-	Player* temp = (Player*)_player;				//Dr.Will helped me for this cast function.
-	bullet_Velocity = temp->Heading_Vec*speed;		//Thanks so much WIll.
+	Player* temp = (Player*)_player;				
+	bullet_Velocity = temp->Heading_Vec*speed;		
 	//bullet_Heading_Vec = temp->Heading_Vec;
 	bullet_Position = temp->mPosition;
 
